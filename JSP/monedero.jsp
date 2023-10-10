@@ -104,7 +104,7 @@ if(puedeComprar){
         <p><%= cambio %> EUR</p>
 </div>
 <% } %>
-<input type="button" value="Volver" onClick="location.href='<%= request.getContextPath() %>/monedero.html';">
+<input type="button" value="Volver" onClick="location.href='<%= request.getContextPath() %>/index.html';">
 </div>
 
 </body>
